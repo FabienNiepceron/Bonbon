@@ -1,0 +1,12 @@
+Début NbrBonbon ( Argent , Prix )
+
+  si Argent >= 0 et Prix >= o ou Prix > Argent
+  retourner Fin
+  Sinon
+    Tant que (PrixTotal < Argent)
+      PrixTotal <- 0
+      PrixTotal <- PrixTotal + Prix
+    Fin Tant que
+  NbrBonbon <- Argent / PrixTotal
+ 
+Fin NbrBonbon
