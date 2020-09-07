@@ -1,0 +1,13 @@
+Début NbrBonbon ( Argent , Prix )
+
+Bonbon <- 0
+
+  si Argent >= 0 et Prix >= o ou Prix > Argent
+  retourner Fin
+  Sinon
+    Tant que (Prix < Argent)
+      Bonbon <- Bonbon + 1
+      Prix <- Prix - Prix
+    Fin Tant que
+  
+ Fin NbrBonbon
